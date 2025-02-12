@@ -1,5 +1,45 @@
-# Vue 3 + Vite
+# Rick and Morty Friends App
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Это SPA-приложение, созданное с использованием Vue 3 и Composition API, которое позволяет добавлять персонажей из вселенной "Рик и Морти" в список, а затем строить список их друзей. Приложение использует [Rick and Morty API](https://rickandmortyapi.com/api/) для получения данных о персонажах.
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+## Функционал
+
+- **Добавление персонажей**: Введите первую букву имени персонажа, чтобы увидеть список подходящих персонажей. Нажмите "Добавить", чтобы добавить персонажа в список.
+- **Удаление персонажей**: Нажмите "Удалить" напротив персонажа, чтобы удалить его из списка.
+- **Построение списка друзей**: Нажмите "Построить список друзей", чтобы отобразить список друзей выбранных персонажей.
+- **Детальная информация**: Нажмите на персонажа в списке друзей, чтобы увидеть его детальную информацию.
+
+## Технологии
+
+- Vue 3 (Composition API)
+- Pinia (для управления состоянием)
+- Vue Router (для навигации)
+- Axios (для работы с API)
+- Rick and Morty API (для получения данных)
+
+## Установка и запуск
+
+1. Клонируйте репозиторий:
+
+   ```bash
+   git clone https://github.com/TieR89/vk-R-M-app.git
+   cd vk-R-M-app
+   ```
+
+2. Установите зависимости:
+
+   ```bash
+   npm install
+   ```
+
+3. Запустите приложение в режиме разработки:
+
+   ```bash
+   npm run dev
+   ```
+
+4. Соберите проект для production:
+
+   ```bash
+   npm run build
+   ```
